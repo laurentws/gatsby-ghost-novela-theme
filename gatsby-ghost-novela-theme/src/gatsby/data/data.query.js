@@ -19,7 +19,7 @@ module.exports.ghost = {
       edges {
         node {
           id
-          date: published_at(formatString: "MMMM Do, YYYY")
+          date: published_at(formatString: "DD MM YYYY")
           slug
           title
           og_title
@@ -30,7 +30,7 @@ module.exports.ghost = {
           twitter_description
           meta_title
           meta_description
-          dateForSEO: updated_at(formatString: "MMMM Do, YYYY")
+          dateForSEO: updated_at(formatString: "DD MM YYYY")
           excerpt
           canonical_url
           readingTime
@@ -102,7 +102,7 @@ module.exports.ghost = {
       edges {
         node {
           id
-          date: updated_at(formatString: "MMMM Do, YYYY")
+          date: updated_at(formatString: "DD MM YYYY")
           slug
           title
           og_title
@@ -112,7 +112,7 @@ module.exports.ghost = {
           twitter_description
           meta_title
           meta_description
-          dateForSEO: updated_at(formatString: "MMMM Do, YYYY")
+          dateForSEO: updated_at(formatString: "DD MM YYYY")
           excerpt
           canonical_url
           readingTime
